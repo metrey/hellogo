@@ -1,10 +1,11 @@
 # Getstarted
 
-1. Prepare db connection
-2. Run script in folder: `docs/database.sql`
-3. Create `.env` from `.env.sample` and update db connection info
-4. FYI: All available API route is in file: `router/router.go`
-5. Run following command
+1. Go lang: `v1.19`
+2. Prepare db connection
+3. Run script in folder: `docs/database.sql`
+4. Create `.env` from `.env.sample` and update db connection info
+5. FYI: All available API route is in file: `router/router.go`
+6. Run following command
 ```
 // this command is to auto map module into checksome and check error
 go mod tidy
